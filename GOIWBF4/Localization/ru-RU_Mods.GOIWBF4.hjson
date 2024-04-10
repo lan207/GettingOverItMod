@@ -1,0 +1,124 @@
+Items: {
+	firstSword: {
+		DisplayName: Тест-меч
+		Tooltip:
+			'''
+			Урон - повреждение корпуса + бронепробитие.
+			Сам предмет имеет 4 типа ходов:
+			Название атаки Множитель урона Множитель отбрасывания
+			волна 3x 1x
+			Выберите 1x 4x
+			Прямая тяга 3*5х 1х
+			Поворот 1x 1x
+			Первые три атаки будут меняться в зависимости от положения мыши.
+			Последняя атака отслеживает мышь через некоторое время после ее применения и возвращается через некоторое время.
+			Правая кнопка мыши переключает, стрелять ли снарядами.
+			Запускает медленно движущийся упругий вращающийся коллайдер:
+			Обычно информация о столкновении отправляется только один раз;
+			Он отклонится при встрече с другими снарядами и сбросить таймер;
+			При встрече с другими объектами его собственная скорость устанавливается на 0;
+			Он вернется к игроку, когда время истечет.
+			'''
+	}
+
+	Jar: {
+		DisplayName: Jar
+		Tooltip: ""
+	}
+
+	Jar2: {
+		DisplayName: Банка и молоток
+		Tooltip:
+			'''
+			Используйте для переключения в форму Jar Man.
+			Нажмите C, чтобы восстановить положение молотка.
+			'''
+	}
+
+	FifthSword: {
+		DisplayName: Тест-меч Макс
+		Tooltip: ""
+	}
+
+	FourthSword: {
+		DisplayName: Тест-меч Про +
+		Tooltip: ""
+	}
+
+	SecondSword: {
+		DisplayName: Тест-меч +
+		Tooltip: ""
+	}
+
+	SeventhSword: {
+		DisplayName: Тест-меч Макс Про +
+		Tooltip: Поздравляем! ! ( •▽ •)✧
+	}
+
+	SixthSword: {
+		DisplayName: Тест-меч Макс Про
+		Tooltip:
+			'''
+			Рабочая станция, необходимая для следующего уровня:
+			1)[i:3536] или [i:3537] или [i:3538] или [i:3539]
+			2)[i:4054] 3)[i:4318] 4)[i:5347] 5)[i:5345]
+			Ключ в мышью может вспомнить соответствующий текст рабочей станции
+			'''
+	}
+
+	ThirdSword: {
+		DisplayName: Тест-меч Про
+		Tooltip: ""
+	}
+}
+
+Buffs: {
+	JarBuff: {
+		DisplayName: Jar And Hammer
+		Description: Mods.GOIWBF.Buffs.JarBuff.Description
+	}
+
+	JarBuff2: {
+		DisplayName: Jar Buff2
+		Description: Mods.GOIWBF.Buffs.JarBuff2.Description
+	}
+}
+
+Projectiles: {
+	Hammer.DisplayName: Hammer
+	TestMouseProj.DisplayName: Test Mouse Proj
+	Class1.DisplayName: Молот, который прыгает вокруг
+	JarMount.DisplayName: Jar Mount
+	// JarMount2.DisplayName: Jar Mount2
+	// TestSwordProj.DisplayName: Test Sword Proj
+}
+
+Configs: {
+	HammerConfig: {
+		DisplayName: конфигурация молотка
+
+		GivenPlayerVelocityXBase: {
+			Label: Дает игроку множитель скорости в направлении X.
+			Tooltip: Измените множитель, который молот дает игроку скорость в направлении X.
+		}
+
+		GivenPlayerVelocityYBase: {
+			Label: Дает игроку множитель скорости в направлении Y.
+			Tooltip: Измените множитель, который молот дает игроку скорость в направлении Y.
+		}
+
+		"Headers.[i:7]GettingOverItInTerraria'sModConfig": "[i:7] Как преодолеть это в конфигурации мода Terraria"
+
+		PastPositionRecordCooldown: {
+			Label: Время восстановления истории прошлых местоположений/s
+			Tooltip: Интервал времени для изменения времени просмотра (секунды)
+		}
+
+		PastPositionRecordMaxTimes: {
+			Label: Максимальное количество записей прошлых местоположений
+			Tooltip: Количество записей, измененных во время отслеживания
+		}
+	}
+}
+
+Keybinds.BackInTimeButton.DisplayName: Кнопка времени

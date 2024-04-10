@@ -1,0 +1,53 @@
+﻿本模组是对掘地求生拙劣模仿，有许多bug和不足，
+包括但不限于锤子卡墙里、锤子暂时撑不起玩家、玩家莫名奇妙乱飞、锤子抽风、锤子消失等等；
+如果你使用了对应物品则会禁用你的上、左、右、跳跃、钩爪键，几乎只能依靠锤子的反作用移动,
+同时免疫坠落伤害与尖刺伤害，免疫流血buff和岩浆；
+如果你遇到了诸如以上的bug，可以尝试按C找回锤子、或者再次使用取消此效果；
+如果无法接受这些效果，请不要订阅；
+如果你的玩家名为BannettFoddy或Bannett Foddy，则会开局携带对应物品；
+总之非常感谢大家的关注与订阅！！
+This mod is a poor imitation of Getting Over It With Bannett Foddy, with many bugs and shortcomings, 
+Including but not limited to the hammer getting stuck in the wall, the hammer temporarily unable to support the player, the player inexplicably flying around, the hammer catching wind, the hammer disappearing, and so on; 
+If you use the corresponding item, your up, left, right, jump, and claw keys will be disabled, and you can only rely on the reaction of the hammer to move, 
+simultaneously immune to fall damage and spike damage, immune to bleeding buffs and lava; 
+If you encounter bugs like the above, you can try pressing C to retrieve the hammer, or use it again to cancel this effect; 
+If you cannot accept these effects, please do not subscribe; 
+If your player is named BannettFoddy or Bannett Foddy, they will carry the corresponding item at the beginning of the game; 
+In short, thank you very much for your attention and subscription!!
+Если вы столкнетесь с ошибкой вышеперечисленного, вы можете попытаться нажать C, чтобы получить молоток или использовать его снова, чтобы отменить этот эффект;
+Если вы не можете принять эти эффекты, пожалуйста, не подписывайтесь;
+Если вашего игрока называют Bannettfoddy или Bannett Foddy, вы начнете с соответствующих элементов;
+Короче говоря, большое спасибо за внимание и подписку! Пересечение
+------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+https://steamcommunity.com/sharedfiles/filedetails/?id=3204731438    <=0.5.5
+https://steamcommunity.com/sharedfiles/filedetails/?id=3215504244    <=0.5.8
+↑旧版链接/Old version link/Ссылка на старую версию
+均因为“无法将该物品发布到Steam，你是否修改了游戏的Steam应用程序ID？”报错而中止
+The above versions were all terminated due to an error message stating "Unable to publish the item to Steam. Did you modify the Steam application ID of the game?"
+Вышеуказанные версии - все это потому, что вы не можете опубликовать элемент в Steam. Изменили ли вы идентификатор приложения Steam в игре? »
+--------------------------------------------------------------------------------------------------
+0.6.0版本：
+降低了锤子给予玩家的整体速度大小（降低加速度基础大小）
+新增时间回溯功能，可以回溯几秒前的位置，需要在控件中设置时间回溯按键
+新增模组配置，在模组配置-锤子配置里，你可以：
+	修改锤子给予玩家X/Y方向上的速度大小的倍率
+	修改时间回溯的时间间隔和记录个数
+加入锤子碰撞时的声音（采用挖掘的声音）
+本版本作为最终版本开源并且不再更新，望周知
+Version 0.6.0: 
+Reduced the overall speed given to the player by the hammer (reducing the basic acceleration) 
+New time backtracking function added, which can backtrack the position a few seconds ago. The Back In Time Button needs to be set in the Controls
+Add Mod configuration. In Mod Configuration-Hammer Config, you can: 
+	Modify the multiplier of the speed given to players in the X/Y direction by the hammer 
+	Modify the time interval and number of records for time backtracking
+Add the sound of hammer collision (using the sound of digging)
+This version is open source as the final version and will no longer be updated. Please be informed
+Версия 0.6.0:
+Уменьшена общая скорость, передаваемая игроку молотом (понижено базовое ускорение).
+Новая ретроспективная функция времени можно проследить несколько секунд назад. Вам нужно установить отслеживание времени назад в управлении.
+Добавьте новую конфигурацию модуля. В разделе «Конфигурация модуля» — «Конфигурация молотка» вы можете:
+	Измените множитель скорости, который молот дает игроку в направлении X/Y.
+	Измените временной интервал и количество записей для обратного отслеживания времени.
+Звук, когда молоток сталкивается (звук раскопок)
+Эта версия такая же открытый исходный код, как и окончательная версия, и больше не обновляется. Она хорошо известна

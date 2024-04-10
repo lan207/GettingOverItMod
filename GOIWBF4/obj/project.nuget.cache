@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZkLOwAb1GzjIUdy7uW08aqunx26nWxl7tH8L7e16fwxTG95Yofv88/EsZ5eglm5jtH4DqhiFmFy1rtBg6KljCg==",
+  "success": true,
+  "projectFilePath": "D:\\360MoveData\\Users\\MR.YU\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\GOIWBF4\\GOIWBF4.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MR.YU\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512",
+    "C:\\Users\\MR.YU\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.28\\microsoft.windowsdesktop.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\MR.YU\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.28\\microsoft.netcore.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\MR.YU\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.28\\microsoft.aspnetcore.app.ref.6.0.28.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,5 @@
+displayName = GettingOverItInTerraria(FinalVersion)
+author = yyds
+version = 0.6.0
+includeSource=true
+hideResource = false

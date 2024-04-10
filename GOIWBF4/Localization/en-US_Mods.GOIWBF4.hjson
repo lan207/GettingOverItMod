@@ -1,0 +1,128 @@
+Items: {
+	firstSword: {
+		DisplayName: Test Sword
+		Tooltip:
+			'''
+			All damage is frame damage+armor piercing
+			There are four moves to use the item itself:
+			Move name damage multiplier knockback multiplier 
+			Wave 3.0x 1.0x 
+			Pick up 1.0x 4.0x 
+			Stab 3 * 5.0x 1.0x 
+			Rotate 1.0x 1.0x 
+			The first three attacks will rotate based on the mouse position, 
+			The last attack tracks the mouse after a period of time and returns after a period of time.
+			Right click to toggle whether to launch a projectile.
+			Launch a slowly moving elastic rotating collision hammer: 
+			Usually only collision information is sent once; 
+			When encountering other projectiles, they will be ejected and reset the timer;
+			When encountering other entity,their velocity will be set to 0;
+			They will come back to owner when the time is running out.
+			'''
+	}
+
+	Jar: {
+		DisplayName: Jar And Hammer
+		Tooltip:
+			'''
+			Use to toggle the form of the jar man
+			Press C to reset the hammer position
+			'''
+	}
+
+	Jar2: {
+		DisplayName: Jar And Hammer
+		Tooltip:
+			'''
+			Use to toggle the form of the jar person
+			Press C to reset the hammer position
+			'''
+	}
+
+	FifthSword: {
+		DisplayName: Test Sword Max
+		Tooltip: ""
+	}
+
+	FourthSword: {
+		DisplayName: Test Sword Pro +
+		Tooltip: ""
+	}
+
+	SecondSword: {
+		DisplayName: Test Sword +
+		Tooltip: ""
+	}
+
+	SeventhSword: {
+		DisplayName: Test Sword Max Pro +
+		Tooltip: Congratulations!!( •▽ •)✧
+	}
+
+	SixthSword: {
+		DisplayName: Test Sword Max Pro
+		Tooltip:
+			'''
+			Workstations required for the next level:
+			1)[i:3536]or[i:3537]or[i:3538]or[i:3539]
+			2)[i:4054]	3)[i:4318] 4)[i:5347] 5)[i:5345]
+			Middle mouse button can pop up corresponding workstation text
+			'''
+	}
+
+	ThirdSword: {
+		DisplayName: Test Sword Pro
+		Tooltip: ""
+	}
+}
+
+Buffs: {
+	JarBuff: {
+		DisplayName: Jar And Hammer
+		Description: Mods.GOIWBF.Buffs.JarBuff.Description
+	}
+
+	JarBuff2: {
+		DisplayName: Jar And Hammer Buff
+		Description: Mods.GOIWBF.Buffs.JarBuff2.Description
+	}
+}
+
+Projectiles: {
+	Hammer.DisplayName: Hammer
+	TestMouseProj.DisplayName: Test Mouse Proj
+	Class1.DisplayName: Bouncing Hammer
+	JarMount.DisplayName: Jar Mount
+	JarMount2.DisplayName: Jar Mount2
+	TestSwordProj.DisplayName: Test Sword Proj
+}
+
+Configs: {
+	HammerConfig: {
+		DisplayName: Hammer Config
+
+		GivenPlayerVelocityXBase: {
+			Label: Given Player Velocity X Base
+			Tooltip: Modify the multiplier of the speed in the X direction given to the player by the hammer
+		}
+
+		GivenPlayerVelocityYBase: {
+			Label: Given Player Velocity Y Base
+			Tooltip: Modify the multiplier of the speed in the Y direction given to the player by the hammer
+		}
+
+		"Headers.[i:7]GettingOverItInTerraria'sModConfig": "[i:7] Getting Over It In Terraria's Mod Config"
+
+		PastPositionRecordCooldown: {
+			Label: Past Psoition Record Cooldown/s
+			Tooltip: Modify the time interval for time backtracking (in seconds)
+		}
+
+		PastPositionRecordMaxTimes: {
+			Label: Past Position Record Max Times
+			Tooltip: Modify the Number of records for ing time backtracking
+		}
+	}
+}
+
+Keybinds.BackInTimeButton.DisplayName: Back In Time Button

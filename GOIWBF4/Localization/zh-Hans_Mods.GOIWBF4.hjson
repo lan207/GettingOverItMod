@@ -1,0 +1,128 @@
+Items: {
+	firstSword: {
+		DisplayName: 测试之剑
+		Tooltip:
+			'''
+			伤害均为帧伤+穿甲
+			物品本体使用有4种招式：
+			招式名 伤害倍率 击退倍率
+			挥舞 3.0x 1.0x
+			上挑 1.0x 4.0x
+			直刺 3*5.0x 1.0x
+			旋转 1.0x 1.0x 
+			前三段攻击会根据鼠标位置旋转，
+			最后一段攻击在发出一段时间后追踪鼠标，并在一段时间后返回。
+			鼠标右键切换是否发射射弹。
+			发射一个慢速移动的具有弹性的旋转碰碰锤:
+			通常只会发送一遍碰撞的信息；
+			遇到别的射弹会被弹开并重置计时器；
+			遇到其他实体会把自己的速度设为0；
+			当时间即将耗尽它会返回玩家身边。
+			'''
+	}
+
+	Jar: {
+		DisplayName: 罐与锤
+		Tooltip:
+			'''
+			使用以切换罐子人形态
+			按C复原锤子位置
+			'''
+	}
+
+	Jar2: {
+		DisplayName: 罐与锤
+		Tooltip:
+			'''
+			使用以切换罐子与人形态
+			按C复原锤子位置
+			'''
+	}
+
+	FifthSword: {
+		DisplayName: 测试之剑Max
+		Tooltip: ""
+	}
+
+	FourthSword: {
+		DisplayName: 测试之剑Pro +
+		Tooltip: ""
+	}
+
+	SecondSword: {
+		DisplayName: 测试之剑+
+		Tooltip: ""
+	}
+
+	SeventhSword: {
+		DisplayName: 测试之剑Max Pro +
+		Tooltip: 恭喜！！( •▽ •)✧
+	}
+
+	SixthSword: {
+		DisplayName: 测试之剑Max Pro
+		Tooltip:
+			'''
+			下一级所需工作站：
+			1)[i:3536]或[i:3537]或[i:3538]或[i:3539]
+			2)[i:4054] 3)[i:4318] 4)[i:5347] 5)[i:5345]
+			鼠标中键可弹出对应工作站文本
+			'''
+	}
+
+	ThirdSword: {
+		DisplayName: 测试之剑Pro
+		Tooltip: ""
+	}
+}
+
+Buffs: {
+	JarBuff: {
+		DisplayName: Jar And Hammer
+		Description: Mods.GOIWBF.Buffs.JarBuff.Description
+	}
+
+	JarBuff2: {
+		DisplayName: Jar Buff2
+		Description: Mods.GOIWBF.Buffs.JarBuff2.Description
+	}
+}
+
+Projectiles: {
+	Hammer.DisplayName: Hammer
+	TestMouseProj.DisplayName: Test Mouse Proj
+	Class1.DisplayName: 碰碰锤
+	JarMount.DisplayName: Jar Mount
+	JarMount2.DisplayName: Jar Mount2
+	TestSwordProj.DisplayName: Test Sword Proj
+}
+
+Configs: {
+	HammerConfig: {
+		DisplayName: 锤子配置
+
+		GivenPlayerVelocityXBase: {
+			Label: 给予玩家X方向速度大小的倍率
+			Tooltip: 修改锤子给予玩家X方向上的速度大小的倍率
+		}
+
+		GivenPlayerVelocityYBase: {
+			Label: 给予玩家Y方向速度大小的倍率
+			Tooltip: 修改锤子给予玩家Y方向上的速度大小的倍率
+		}
+
+		"Headers.[i:7]GettingOverItInTerraria'sModConfig": "[i:7] 掘地求升泰拉版模组配置"
+
+		PastPositionRecordCooldown: {
+			Label: 过往位置记录冷却/s
+			Tooltip: 修改时间回溯的时间间隔(秒)
+		}
+
+		PastPositionRecordMaxTimes: {
+			Label: 过往位置记录最大次数
+			Tooltip: 修改时间回溯的记录个数
+		}
+	}
+}
+
+Keybinds.BackInTimeButton.DisplayName: 时间回溯按钮
